@@ -1,17 +1,31 @@
-h1 {
-	color: #ea3788;
-	background-color: yellow;
+.navigation {
+	background-color: #77BA99;
 }
 
-h2 {
-	color: #1460AA;
+.body-background-color {
+	background-color: #EFF0D1;
 }
 
-h3 {
-	color: #F391A0;
-	background-color: blue;
+.footer {
+	background-color: #D33F49;
 }
 
-body {
-	background-color: #fefefe;
+.main-header {
+	color: #EFF0D1;
+	background-color: #D33F49;
 }
+
+.secondary-content-header {
+	color: #262730;
+	background-color: #77BA99;
+}
+
+
+
+/*Paleta na www:
+Rusty red: #D33F49
+Thistle: #D7C0D0
+Beige: #EFF0D1
+Cambridge blue: #77BA99
+Rasin black #262730
+*/
