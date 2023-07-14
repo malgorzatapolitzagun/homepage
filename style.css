@@ -20,7 +20,15 @@
 	background-color: #77BA99;
 }
 
+nav a {   /*stylowanie wszystkich a znajdujących się w nav */
+	color: #D33F49;
+	font-weight: bold;
+}
 
+footer a {   /*stylowanie wszystkich a znajdujących się w footer */
+	color: #262730;
+	font-weight: bold;
+}
 
 /*Paleta na www:
 Rusty red: #D33F49
