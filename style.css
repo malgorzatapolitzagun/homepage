@@ -9,9 +9,45 @@
 }
 
 .navigation {
-	background-color: #77BA99;
+	background: #D33F49;
+	padding: 15px;
 }
 
+.navigation__link {
+	color: #EFF0D1;
+}
+
+.section{
+background: #77BA99;
+}
+
+.section__header{}
+
+.section__image{}
+
+.section__text{}
+
+.article{}
+
+.article__header{}
+
+.article__text{}
+
+.footer{
+	background: #262730;
+	color: #EFF0D1;
+}
+
+.footer__header{}
+
+.footer__link{}
+
+.footer__text{}
+
+.inner-link{}
+
+
+/*
 .body-background-color {
 	background-color: #EFF0D1;
 }
@@ -31,19 +67,18 @@
 }
 
 nav a {
-	/* stylowanie wszystkich a znajdujących się w nav */
 	color: #D33F49;
 	font-weight: bold;
 }
 
 footer a {
-	/* stylowanie wszystkich a znajdujących się w footer */
 	color: inherit;
-	/* odziedziczenie koloru po rodzicu, tj. footer */
 	font-weight: bold;
 }
+*/
 
-/*Paleta na www:
+
+/*Paleta na www: https://coolors.co/d33f49-d7c0d0-eff0d1-77ba99-262730
 Rusty red: #D33F49
 Thistle: #D7C0D0
 Beige: #EFF0D1
