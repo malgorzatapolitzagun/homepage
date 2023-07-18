@@ -1,3 +1,13 @@
+.html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 .navigation {
 	background-color: #77BA99;
 }
@@ -20,13 +30,16 @@
 	background-color: #77BA99;
 }
 
-nav a { 	/* stylowanie wszystkich a znajdujących się w nav */
+nav a {
+	/* stylowanie wszystkich a znajdujących się w nav */
 	color: #D33F49;
 	font-weight: bold;
 }
 
-footer a { 	/* stylowanie wszystkich a znajdujących się w footer */
-	color: inherit; 	/* odziedziczenie koloru po rodzicu, tj. footer */
+footer a {
+	/* stylowanie wszystkich a znajdujących się w footer */
+	color: inherit;
+	/* odziedziczenie koloru po rodzicu, tj. footer */
 	font-weight: bold;
 }
 
