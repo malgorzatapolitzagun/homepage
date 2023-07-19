@@ -8,6 +8,10 @@
 	box-sizing: inherit;
 }
 
+.body {
+	background: #77BA99;
+}
+
 .navigation {
 	background: #D33F49;
 	padding: 15px;
@@ -15,68 +19,93 @@
 
 .navigation__link {
 	color: #EFF0D1;
+	padding: 5px 25px;
+	border-bottom: 1px dashed #EFF0D1;
+	margin-right: 30px;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: medium;
+
 }
 
-.section{
-background: #77BA99;
+.section {
+	background: #77BA99;
 }
 
-.section__header{}
+.section__header {
+	padding: 15px;
+	max-width: 100vw;
+	background: #77BA99;
+	color: #262730;
+}
 
-.section__image{}
+.section__header--special {
+	background: yellow;
+}
 
-.section__text{}
+.section__image {
+	box-sizing: border-box;
+	width: 100vw;
+}
 
-.article{}
+.section__text {
+	padding: 20px 15px;
+	margin: 0;
+	color: #262730;
+	font-weight: 500;
+	font-size: medium;
+}
 
-.article__header{}
+.article {
+	padding: 20px 15px;
+}
 
-.article__text{}
+.article__header {
+	margin: 0;
+	max-width: 100vw;
+	background: #77BA99;
+	color: #262730;
+}
 
-.footer{
+.article__text {
+	margin: 0;
+	padding-top: 15px;
+	color: #262730;
+	font-weight: 500;
+	font-size: medium;
+}
+
+.article__text--list-item {
+	margin-bottom: 0;
+	padding-top: 0;
+}
+
+.footer {
+	padding: 15px;
 	background: #262730;
 	color: #EFF0D1;
 }
 
-.footer__header{}
-
-.footer__link{}
-
-.footer__text{}
-
-.inner-link{}
-
-
-/*
-.body-background-color {
-	background-color: #EFF0D1;
-}
-
-.footer {
-	background-color: #D33F49;
-}
-
-.main-header {
-	color: #EFF0D1;
-	background-color: #D33F49;
-}
-
-.secondary-content-header {
-	color: #262730;
-	background-color: #77BA99;
-}
-
-nav a {
+.footer__header {
+	margin: 0px;
 	color: #D33F49;
-	font-weight: bold;
 }
 
-footer a {
-	color: inherit;
-	font-weight: bold;
+.footer__link {
+	color: #D7C0D0;
+	text-decoration: none;
 }
-*/
 
+.footer__text {
+	color: #EFF0D1;
+	font-weight: 500;
+	font-size: medium;
+}
+
+.inner-link {
+	color: #D33F49;
+	text-decoration: none;
+}
 
 /*Paleta na www: https://coolors.co/d33f49-d7c0d0-eff0d1-77ba99-262730
 Rusty red: #D33F49
