@@ -25,7 +25,6 @@
 	text-decoration: none;
 	font-weight: 500;
 	font-size: medium;
-
 }
 
 .section {
@@ -104,6 +103,41 @@
 .inner-link {
 	color: #D33F49;
 	text-decoration: none;
+}
+
+.playground {
+	margin: 20px 0 20px 0;
+	padding: 20px;
+	border: 2px solid red;
+}
+
+.playground__wtf {
+	display: inline-block;
+	margin: 5px;
+}
+
+.playground__wtf--htmls {
+	width: 100px;
+	height: 100px;
+	background: orange;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.playground__wtf--csses {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	padding: 10px 20px;
+	border: 2px dotted black;
+}
+
+.playground__wtf--javascripts {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	padding: 10px 5px 10px 50px;
+	border: 2px dashed black;
 }
 
 /*Paleta na www: https://coolors.co/d33f49-d7c0d0-eff0d1-77ba99-262730
